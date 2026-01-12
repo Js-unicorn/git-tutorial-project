@@ -6,14 +6,16 @@ public class Main {
                 new Product[]{
                     new Product("經典豬排定食套餐", 292),
                     new Product("開運豬排定食", 247),
-                    new Product("香酥炸腰內肉定食", 247)
+                    new Product("香酥炸腰內肉定食", 247),
+                    new Product("和風咖哩豬排定食", 272)
                 }
             ),
             new Shop(
                 "雙月",
                 new Product[]{
                     new Product("雞汁拌飯", 35),
-                    new Product("香拌意麵", 40)
+                    new Product("香拌意麵", 40),
+                    new Product("雙月乾蚵", 150)
                 }
             ),
             new Shop(
@@ -24,6 +26,13 @@ public class Main {
                     new Product("豆漿", 45),
                     new Product("糙米漿", 45),
                     new Product("鹹豆漿", 60)
+                }
+            ),
+            new Shop(
+                "定食8",
+                new Product[]{
+                    new Product("極上海膽鰻牛飯", 280),
+                    new Product("蒜香牛排", 260)
                 }
             )
         };
